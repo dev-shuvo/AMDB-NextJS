@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary-color: #dc2626;
+  --dark-color: #1e293b;
+  --light-color: #e2e8f0;
+}
+* {
+  transition: 0.2s ease all;
+}
+body,
+html {
+  padding: 20px;
+}
